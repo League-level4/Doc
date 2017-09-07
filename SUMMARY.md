@@ -6,5 +6,5 @@
 
 ## Modules
 
-* [Module 0](methods.md)
+* [module0](modules/module0.md)
 
