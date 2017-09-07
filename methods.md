@@ -1,30 +1,23 @@
-# Defining Methods
+# Module 0
 
 Methods allow you to smoothly display code examples in different languages.
 
 {% method %}
-## My first method
+### [String Things](https://docs.google.com/document/d/1wTYZEy2nuZhOnRShg0n-s9EpUx7WZEHQSRftGsQObtY/edit)
+You may need to explain String.compareTo()
 
-My first method exposes how to print a message in JavaScript and Go.
 
-{% sample lang="js" %}
-Here is how to print a message to `stdout` using JavaScript.
+### [Anagrams?](https://www.hackerrank.com/challenges/java-anagrams)
+The website doesn't offer code completion. Copy into Eclipse. Have students write unit tests.
 
-```js
-console.log('My first method');
+### String Barf
+Without using the reverse() method in StringBuffer or StringBuilder, write a string reverser that will make this unit test pass.
+
+
+```java
+	@Test
+	public void test() {
+		assertEquals("frab", reverseMe("barf"));
+	}
+
 ```
-
-{% sample lang="go" %}
-Here is how to print a message to `stdout` using Go.
-
-```go
-fmt.Println("My first method")
-```
-
-{% common %}
-Whatever language you are using, the result will be the same.
-
-```bash
-$ My first method
-```
-{% endmethod %}
