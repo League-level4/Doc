@@ -13,7 +13,6 @@ The website doesn't offer code completion. Copy into Eclipse. Have students writ
 ### String Barf
 Without using the reverse() method in StringBuffer or StringBuilder, write a string reverser that will make this unit test pass.
 
-
 ```java
 	@Test
 	public void test() {
