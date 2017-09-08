@@ -11,7 +11,7 @@ You may need to explain String.compareTo()
 ### [Anagrams?](https://www.hackerrank.com/challenges/java-anagrams)
 The website doesn't offer code completion. Copy into Eclipse. Have students write unit tests.
 
-### String Barf
+# String Barf
 Without using the reverse() method in StringBuffer or StringBuilder, write a string reverser that will make this unit test pass.
 
 
